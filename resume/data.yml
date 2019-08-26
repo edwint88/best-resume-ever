@@ -1,92 +1,82 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Werner-Edwin
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Tuzar
+about:
+  "Having more than 5 years of professional experience in full-stack development and passionate about new technologies and ways to improve productivity through agile software methods
+  # Strong communication and teamwork skills, working with cross functional teams and in teams up to 10 people
+  # Interested in agile frameworks, voice technology, machine learning, security and always learning something new (like Alexa Skills, Arduino, Google Dialogflow, ReactJs)"
+position: Full Stack Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1988
+  location: Bucharest, Romania
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Verband der Vereine Creditreform e.V., Neuss (Germany)
+  position: Full Stack Developer
+  timeperiod: since June 2015
+  description: "I am responsible for:"
+  subdesc:
+  - "• Developing in various programming languages: Java, PHP, Javascript, SQL, Bash scripts"
+  - • Developing solutions to connect intern services with extern e-commerce web shops like Shopware, Gambio and Magento.
+  - • Creating new REST APIs, web applications and micro-services.
+  - "• Using latest tools, technologies and frameworks to improve processes and assure continuous integration: Docker, Jenkins, GitLab, GitFlow, SonarQube."
+  - • Testing the project through developer and business tests.
+  - • Securing the web applications, the servlets and services with OAuth2.0 and Keycloak technologies.
+  website: https://www.creditreform.de/index.html
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Fraunhofer Institute for Experimental Software Engineering (IESE), Kaiserslautern (Germany)
+  position: Research Assistant
+  timeperiod: September 2012 - October 2014
+  subdesc:
+    - • Assistant in research projects and industry collaborations
+    - • Member of the Developer Team
+    - • Developed tools used internally by Fraunhofer IESE
+  website: https://www.iese.fraunhofer.de/
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: M.Sc. Software Engineering
+  timeperiod: October 2011 - October 2014
+  description: Technische Universität Kaiserslautern - Informatics (Kaiserslautern, Germany)
+  website: https://www.uni-kl.de/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: B.Sc. Informatics Specialist
+  timeperiod: October 2010 - October 2011
+  description: Politehnica University of Timişoara - Informatics (Timişoara, Romania)
+
+- degree: B.Sc. Economic IT (Business Informatics)
+  timeperiod: October 2007 - October 2010
+  description: Bucharest Academy of Economic Studies - Economic IT (Bucharest, Romania)
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
+- name: Securing Microservices (Keycloak, Basic Auth, OAuth2.0)
   level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
+- name: Continous Delivery & Virtualization (Docker, Vagrant, VM, Mvn, Jenkins)
+  level: 95
+- name: Collaboration (Slack, Confluence, Jira, GitFlow)
+  level: 95
+- name: Backend (Java | PHP | Frameworks (Dropwizard, JSP/JSF Servlet, Spring, Doctrine2, Sympfony)
+  level: 90
+- name: Testing (Selenium, SonarQube, JUnit, Jasmine, Karma)
+  level: 85
+- name: Frontend (HTML | CSS | Javascript + Frameworks -> NodeJs, ExtJs, JQuery, React, Angular)
+  level: 85
+- name: Software Architecture, Patterns & Anti-patterns
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Other Technologies (Alexa SDK, Dialog Flow, Google Actions)
+  level: 40
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: tuzaredwin@gmail.com
+  phone: +49 (0) 1577 8364167
+  street: Johannes-Hesse-Str. 31
+  city: Düsseldorf
+  website: https://portfolio.edwintuzar.com
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

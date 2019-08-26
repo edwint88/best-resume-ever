@@ -1,0 +1,100 @@
+/* #*/ export const PERSON = `
+name:
+  first: Werner-Edwin
+  middle:
+  last: Tuzar
+about:
+  "Having more than 5 years of professional experience in full-stack development and passionate about new technologies and ways to improve productivity through agile software methods
+  # Strong communication and teamwork skills, working in teams up to 10 people
+  # Interested in agile frameworks, voice technology, machine learning, security and creating new skills/actions for Alexa and Google Home."
+
+position: Full Stack Developer
+
+birth:
+  year: 1988
+  location: Bucharest, Romania
+
+experience:
+- company: Verband der Vereine Creditreform e.V., Neuss (Germany)
+  position: Full Stack Developer
+  timeperiod: since June 2015
+  description: "I was responsible for:"
+  subdesc:
+  - "• Developing in various programming languages: Java (JSP/JSF), PHP, Javascript, SQL, Bash scripts"
+  - • Developing solutions to connect intern services with extern e-commerce web shops like Shopware, Gambio and Magento.
+  - • Creating new REST APIs, web applications and micro-services.
+  - "• Using latest tools, technologies and frameworks to improve processes and assure continuous integration: Jenkins, GitLab, GitFlow, SonarQube."
+  - • Testing the project through developer and business tests.
+  - • Securing the web applications, the servlets and services with OAuth and Keycloak technologies.
+  website: https://www.creditreform.de/index.html
+
+- company: Fraunhofer Institute for Experimental Software Engineering (IESE), Kaiserslautern (Germany)
+  position: Research Assistant
+  timeperiod: September 2012 - October 2014
+  subdesc:
+    - • Assistant in research projects and industry collaborations
+    - • Member of the Developer Team
+    - • Developed tools used internally by Fraunhofer IESE
+  website: https://www.iese.fraunhofer.de/
+
+education:
+- degree: Master of Arts
+  timeperiod: March 2012 - December 2013
+  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+  website: https://example.com
+
+- degree: Bachelor of Science
+  timeperiod: March 2009 - December 2011
+  description: Major in Engineering, University B, Los Angeles, USA.
+
+# skill level goes 0 to 100
+skills:
+- name: HTML5
+  level: 99
+- name: CSS3
+  level: 95
+- name: JavaScript
+  level: 90
+- name: PHP
+  level: 90
+- name: Angular 2
+  level: 50
+- name: Java
+  level: 95
+- name: Keycloak
+  level: 95
+- name: Docker
+  level: 99
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
+
+projects:
+- name: best-resume-ever
+  platform: Vue
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: john.doe@email.com
+  phone: 0123 456789
+  street: 1234 Broadway
+  city: New York
+  website: johndoe.com
+  github: johnyD
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+lang: en
+`
